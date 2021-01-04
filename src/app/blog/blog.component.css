@@ -1,0 +1,128 @@
+#blog {
+    padding:50px 60px 80px 360px;
+    height:170vh;
+  }
+
+.section-heading em {
+    font-style: normal;
+    font-weight: 700;
+    color: #45489a;
+}
+
+.section-heading h1 {
+    margin-top: 0px;
+    font-size: 32px;
+    color: #232323;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.section-heading p{
+    display:inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    color: #343434;
+    position: absolute;
+}
+
+#blog .tabs {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0px;
+  height: 90px;
+  width: 100%;
+  background-color: #eee;
+  border-bottom: 10px solid #45489a;
+}
+
+#blog .tabs li {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+}
+
+#blog .tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: #232323;
+  font-size: 19px;
+  line-height: 80px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+
+#blog .tabs a:hover {
+  color: #45489a;
+}
+
+
+#blog .tabs .active:hover {
+  color: #fff;
+}
+
+#blog .tabs .active {
+  background-color: #45489a;
+  color: #fff;
+}
+
+.tabgroup {
+  background-color: #f4f4f4;
+  padding: 20px 30px;
+}
+
+.clear:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#blog .tabgroup ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#blog .tabgroup ul li {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#blog .tabgroup ul li img {
+  float: left;
+  margin-right: 30px;
+  max-width: 100%;
+  overflow: hidden;
+}
+#blog .tabgroup ul li .text-content {
+  display: inline;
+}
+
+#blog .item .text-content h4 {
+  padding-top: 7.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+#blog .item .text-content span {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #7a7a7a;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+#blog .item .text-content .accent-button {
+  margin-top: 25px;
+}
+
